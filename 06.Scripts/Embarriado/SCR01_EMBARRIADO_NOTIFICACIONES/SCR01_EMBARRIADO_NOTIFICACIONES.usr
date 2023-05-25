@@ -1,0 +1,64 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=SCR01_EMBARRIADO_NOTIFICACIONES.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2021
+MinorVersion=1
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2021.1.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Encoding=
+Description=
+ScriptLocale=es-ES
+[Actions]
+vuser_init=vuser_init.c
+SCR01_TR00_EMBARRIADO_NOTIFICACIONES=SCR01_TR00_EMBARRIADO_NOTIFICACIONES.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+SCR01_TR00_EMBARRIADO_NOTIFICACIONES=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+SCR01_TR00_EMBARRIADO_NOTIFICACIONES=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+SCR01_TR00_EMBARRIADO_NOTIFICACIONES=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+SCR01_TR00_EMBARRIADO_NOTIFICACIONES=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="SCR01_TR01_EMBARRIADO_NOTIFICACIONES_TOKEN__*delimiter*__SCR01_TR02_EMBARRIADO_NOTIFICACIONES_ASSIGMENT__*delimiter*__SCR01_TR03_EMBARRIADO_NOTIFICACIONES_OUTPUTDELIVERY"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+SCR01_TR01_EMBARRIADO_NOTIFICACIONES_TOKEN=
+SCR01_TR02_EMBARRIADO_NOTIFICACIONES_ASSIGMENT=
+SCR01_TR03_EMBARRIADO_NOTIFICACIONES_OUTPUTDELIVERY=

@@ -1,0 +1,302 @@
+Virtual User Script started at: 10/04/2023 13:22:42
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.1.0 for Windows 2008 R2; build 460 (abr 22 2021 19:27:24)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\E020585\Desktop\PRUEBAS_VUGEN\NuevosScripts\Embarriado\SCR01_EMBARRIADO_NOTIFICACIONES\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\E020585\Desktop\PRUEBAS_VUGEN\NuevosScripts\Embarriado\SCR01_EMBARRIADO_NOTIFICACIONES"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\E020585\Desktop\PRUEBAS_VUGEN\NuevosScripts\Embarriado\SCR01_EMBARRIADO_NOTIFICACIONES"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\users\e020585\desktop\pruebas_vugen\nuevosscripts\embarriado\scr01_embarriado_notificaciones"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2023-04-10 11:22:42  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2023-04-10 13:22:42  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : Yes  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: No  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: text/xml;text/plain  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\E020585\Desktop\PRUEBAS_VUGEN\NuevosScripts\Embarriado\SCR01_EMBARRIADO_NOTIFICACIONES\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+vuser_init.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(4): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+vuser_init.c(4): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+vuser_init.c(6): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+vuser_init.c(6): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+vuser_init.c(6): "Content-Type: application/x-www-form-urlencoded" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+vuser_init.c(6): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+vuser_init.c(8): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(8): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(15): web_submit_data("token") started  	[MsgId: MMSG-26355]
+vuser_init.c(15): t=204ms: Connecting [0] to host 172.21.36.108:443  	[MsgId: MMSG-26000]
+vuser_init.c(15): t=205ms: Connected socket [0] from 10.70.20.85:27743 to 172.21.36.108:443 in 0 ms  	[MsgId: MMSG-26000]
+vuser_init.c(15): t=207ms: Trying to set SNI with servername pocisam.correospre.es  	[MsgId: MMSG-26000]
+vuser_init.c(15): t=207ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+vuser_init.c(15): t=216ms: 316-byte request headers for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     POST /mga/sps/oauth/oauth20/token HTTP/1.1\r\n
+vuser_init.c(15):     Content-Type: application/x-www-form-urlencoded\r\n
+vuser_init.c(15):     Cache-Control: no-cache\r\n
+vuser_init.c(15):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+vuser_init.c(15):     Accept-Encoding: gzip, deflate\r\n
+vuser_init.c(15):     Accept: */*\r\n
+vuser_init.c(15):     Connection: Keep-Alive\r\n
+vuser_init.c(15):     Host: pocisam.correospre.es\r\n
+vuser_init.c(15):     Content-Length: 93\r\n
+vuser_init.c(15):     \r\n
+vuser_init.c(15): t=221ms: 93-byte request body for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     grant_type=client_credentials&client_id=hades&client_secret=PbCc1xzVLyg1878ti0US&scope=ope
+vuser_init.c(15):     nid
+vuser_init.c(15): t=434ms: 678-byte response headers for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     HTTP/1.1 200 OK\r\n
+vuser_init.c(15):     content-language: en-US\r\n
+vuser_init.c(15):     content-type: application/json;charset=UTF-8\r\n
+vuser_init.c(15):     date: Mon, 10 Apr 2023 11:23:19 GMT\r\n
+vuser_init.c(15):     p3p: CP="NON CUR OTPi OUR NOR UNI"\r\n
+vuser_init.c(15):     transfer-encoding: chunked\r\n
+vuser_init.c(15):     access-control-allow-origin: *\r\n
+vuser_init.c(15):     x-frame-options: SAMEORIGIN\r\n
+vuser_init.c(15):     cache-control: no-store, no-cache=set-cookie\r\n
+vuser_init.c(15):     expires: Thu, 01 Dec 1994 16:00:00 GMT\r\n
+vuser_init.c(15):     strict-transport-security: max-age=31536000; includeSubDomains\r\n
+vuser_init.c(15):     pragma: no-cache\r\n
+vuser_init.c(15):     Set-Cookie: AMWEBJCT!%2Fmga!JSESSIONID=0000Jv6lLtCxR4zXs-vSbmbmyU3:ce75908e-a1c0-4004-9a6e
+vuser_init.c(15):     -dcb5e6f65225; Path=/; Secure; HttpOnly\r\n
+vuser_init.c(15):     Set-Cookie: BIGipServerpool_pocisamv1.correospre.es_http=rd183o00000000000000000000ffffac1
+vuser_init.c(15):     810eao443; path=/; Httponly; Secure\r\n
+vuser_init.c(15):     \r\n
+vuser_init.c(15): t=441ms: 5-byte chunked response overhead for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     2f0\r\n
+vuser_init.c(15): t=441ms: 7-byte chunked response overhead for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     \r\n
+vuser_init.c(15):     0\r\n
+vuser_init.c(15):     \r\n
+vuser_init.c(15): t=442ms: 752-byte chunked response body for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     {"access_token":"ui2JQJBsn5P","scope":"openid","id_token":"eyJraWQiOiJBM1J4dXhNTTdyVEw2QXN
+vuser_init.c(15):     ubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIF
+vuser_init.c(15):     RNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNo
+vuser_init.c(15):     IjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYW
+vuser_init.c(15):     RlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9ChscFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx
+vuser_init.c(15):     4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHWVpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7z
+vuser_init.c(15):     NkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgSaRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL
+vuser_init.c(15):     62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJfYPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg","token_ty
+vuser_init.c(15):     pe":"bearer","expires_in":28799}
+vuser_init.c(15): Notify: Saving Parameter "token = eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYWRlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9ChscFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHWVpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7zNkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgSaRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJfYPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg".
+vuser_init.c(15): t=447ms: Request done "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token"  	[MsgId: MMSG-26000]
+vuser_init.c(15): web_submit_data("token") was successful, 752 body bytes, 678 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Notificaciones.
+Notificaciones.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Notificaciones.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Notificaciones.c(4): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Notificaciones.c(4): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Notificaciones.c(6): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Notificaciones.c(6): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Notificaciones.c(6): "Content-Type: application/x-www-form-urlencoded" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Notificaciones.c(6): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Notificaciones.c(9): Notify: Transaction "SCR01_EMBARRIADO_NOTIFICACIONES_ASSIGMENT" started.
+Notificaciones.c(11): web_rest("POST: https://api1-intapp.correospre.es/logistics/logist...") started  	[MsgId: MMSG-26355]
+Notificaciones.c(11): Notify: Parameter Substitution: parameter "fec_actual" =  "2023-04-10T13:22:42+0100"
+Notificaciones.c(11): Notify: Parameter Substitution: parameter "cod_bulto_notificacion" =  "NATMSRENDI0000000000001"
+Notificaciones.c(11): Notify: Next row for parameter id_ruta_notificacion = 1 [table  = id_ruta_notificacion].
+Notificaciones.c(11): Notify: Parameter Substitution: parameter "id_ruta_notificacion" =  "PC93"
+Notificaciones.c(11): Notify: Next row for parameter cod_centro_notificacion = 1 [table  = cod_centro_notificacion].
+Notificaciones.c(11): Notify: Parameter Substitution: parameter "cod_centro_notificacion" =  "1900009"
+Notificaciones.c(11): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Notificaciones.c(11): Notify: Parameter Substitution: parameter "token" =  "eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYWRlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9ChscFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHWVpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7zNkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgSaRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJfYPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg"
+Notificaciones.c(11): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Notificaciones.c(11): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Notificaciones.c(11): "Authorization: Bearer eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYWRlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9ChscFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHWVpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7zNkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgSaRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJfYPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Notificaciones.c(11): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Notificaciones.c(11): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Notificaciones.c(11): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Notificaciones.c(11): "Content-Type: application/json" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Notificaciones.c(11): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Notificaciones.c(11): Notify: ****************   End of messages from web_add_header   *****************
+Notificaciones.c(11): t=607ms: Closed connection [0] to pocisam.correospre.es:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Notificaciones.c(11): t=607ms: Connecting [0] to host 172.17.163.184:443  	[MsgId: MMSG-26000]
+Notificaciones.c(11): t=645ms: Connected socket [0] from 10.70.20.85:27744 to 172.17.163.184:443 in 38 ms  	[MsgId: MMSG-26000]
+Notificaciones.c(11): t=646ms: Trying to set SNI with servername api1-intapp.correospre.es  	[MsgId: MMSG-26000]
+Notificaciones.c(11): t=646ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+Notificaciones.c(11): t=728ms: 988-byte request headers for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Notificaciones.c(11):     POST /logistics/logistics/api/v1/assignment HTTP/1.1\r\n
+Notificaciones.c(11):     Authorization: Bearer eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVR
+Notificaciones.c(11):     IiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjo
+Notificaciones.c(11):     iaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsI
+Notificaciones.c(11):     nN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYWRlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9Chs
+Notificaciones.c(11):     cFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHW
+Notificaciones.c(11):     Vpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7zNkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgS
+Notificaciones.c(11):     aRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJf
+Notificaciones.c(11):     YPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg\r\n
+Notificaciones.c(11):     Content-Type: application/json\r\n
+Notificaciones.c(11):     Cache-Control: no-cache\r\n
+Notificaciones.c(11):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Notificaciones.c(11):     Accept-Encoding: gzip, deflate\r\n
+Notificaciones.c(11):     Accept: */*\r\n
+Notificaciones.c(11):     Connection: Keep-Alive\r\n
+Notificaciones.c(11):     Host: api1-intapp.correospre.es\r\n
+Notificaciones.c(11):     Content-Length: 369\r\n
+Notificaciones.c(11):     \r\n
+Notificaciones.c(11): t=730ms: 369-byte request body for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Notificaciones.c(11):     {\r\n
+Notificaciones.c(11):     "adminMode": true,\r\n
+Notificaciones.c(11):     "assignmentDate": "2023-04-10T13:22:42+0100",\r\n
+Notificaciones.c(11):     "deliveryManCode": "P001234",\r\n
+Notificaciones.c(11):     "device": "2738632764",\r\n
+Notificaciones.c(11):     "interfaceId": "AI00001",\r\n
+Notificaciones.c(11):     "itemId": "NATMSRENDI0000000000001",\r\n
+Notificaciones.c(11):     "language": "Espa&#241;ol",\r\n
+Notificaciones.c(11):     "latitude": 23.5,\r\n
+Notificaciones.c(11):     "longitude": 12.4,\r\n
+Notificaciones.c(11):     "route": "PC93",\r\n
+Notificaciones.c(11):     "centerCode": "1900009",\r\n
+Notificaciones.c(11):     "onRoute": false,\r\n
+Notificaciones.c(11):     "userCode": "E012345",\r\n
+Notificaciones.c(11):     "changeProduct": 0\r\n
+Notificaciones.c(11):     }\r\n
+Notificaciones.c(11): t=2045ms: 241-byte response headers for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Notificaciones.c(11):     HTTP/1.1 201 Created\r\n
+Notificaciones.c(11):     Content-Type: application/json; charset=UTF-8\r\n
+Notificaciones.c(11):     Transfer-Encoding: chunked\r\n
+Notificaciones.c(11):     Date: Mon, 10 Apr 2023 11:22:44 GMT\r\n
+Notificaciones.c(11):     Set-Cookie: 11318fb6d7dbcf31e30910e19b23fe19=41f6d85039215b0ec5e33fb3d90f9d7e; path=/; Htt
+Notificaciones.c(11):     pOnly; Secure\r\n
+Notificaciones.c(11):     \r\n
+Notificaciones.c(11): t=2047ms: 5-byte chunked response overhead for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Notificaciones.c(11):     42d\r\n
+Notificaciones.c(11): t=2047ms: 2-byte chunked response overhead for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Notificaciones.c(11):     \r\n
+Notificaciones.c(11): t=2048ms: 1069-byte chunked response body for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Notificaciones.c(11):     {"data":{"isPickup":false,"response":"OK","message":"Realizada asignaci\xC3\xB3n mediante 
+Notificaciones.c(11):     el sistema Aguas Abajo.","updatedItem":{"id":"NATMSRENDI0000000000001","createdOn":"2023-0
+Notificaciones.c(11):     4-10T14:22:42+0200","createdAt":"11","modifiedOn":"2023-04-10T14:22:42+0200","shipmentId":
+Notificaciones.c(11):     "NATMSRENDI0000000000001","shipmentCreatedOn":"2023-04-10T14:22:42+0200","admissionDate":"
+Notificaciones.c(11):     2023-04-10T13:22:44+0200","assignedRoute":"PC93","assignedDeliveryPerson":"P001234","assig
+Notificaciones.c(11):     mentOrder":1,"groupId":124775,"reporterNode":"1900009","numberMadeAttempts":0,"itemCycle":
+Notificaciones.c(11):     false,"incidence":false,"lastDeliveryAttempt":false,"downWaterStatus":true,"customBlock":f
+Notificaciones.c(11):     alse,"endRoute":false,"status":{"id":26,"statusDate":"2023-04-10T13:22:44+0200","userCode"
+Notificaciones.c(11):     :"E012345"},"incidents":[],"pods":[],"delivery":{},"pbc":{}},"shipment":{"shipmentId":"NAT
+Notificaciones.c(11):     MSRENDI0000000000001","createdOn":"2023-04-10T14:22:42+0200","itemsQuantity":1,"productCod
+Notificaciones.c(11):     e":"NA","partialDelivery":false,"recipient":{"doi":{},"contacto":{},"address":{}},"sender"
+Notificaciones.c(11):     :{"doi":{},"contacto":{},"address":{}},"addedValues":[]},"pickupRelationship":false}}
+Notificaciones.c(11): t=2048ms: 5-byte chunked response overhead for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Notificaciones.c(11):     0\r\n
+Notificaciones.c(11):     \r\n
+Notificaciones.c(11): t=2049ms: Request done "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment"  	[MsgId: MMSG-26000]
+Notificaciones.c(11): web_rest("POST: https://api1-intapp.correospre.es/logistics/logist...") was successful, 1069 body bytes, 241 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Notificaciones.c(38): Notify: Transaction "SCR01_EMBARRIADO_NOTIFICACIONES_ASSIGMENT" ended with a "Pass" status (Duration: 1,4843 Wasted Time: 0,0067).
+Notificaciones.c(40): Notify: Transaction "SCR01_EMBARRIADO_NOTIFICACIONES_OUTPUTDELIVERY" started.
+Notificaciones.c(42): web_rest("POST: https://api1-intapp.correospre.es/logistics/logist...") started  	[MsgId: MMSG-26355]
+Notificaciones.c(42): Notify: Next row for parameter cod_centro_notificacion = 1 [table  = cod_centro_notificacion].
+Notificaciones.c(42): Notify: Parameter Substitution: parameter "cod_centro_notificacion" =  "1900009"
+Notificaciones.c(42): Notify: Parameter Substitution: parameter "fec_actual" =  "2023-04-10T13:22:44+0100"
+Notificaciones.c(42): Notify: Parameter Substitution: parameter "fec_actual" =  "2023-04-10T13:22:44+0100"
+Notificaciones.c(42): Notify: Next row for parameter id_ruta_notificacion = 1 [table  = id_ruta_notificacion].
+Notificaciones.c(42): Notify: Parameter Substitution: parameter "id_ruta_notificacion" =  "PC93"
+Notificaciones.c(42): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Notificaciones.c(42): Notify: Parameter Substitution: parameter "token" =  "eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYWRlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9ChscFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHWVpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7zNkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgSaRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJfYPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg"
+Notificaciones.c(42): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Notificaciones.c(42): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Notificaciones.c(42): "Authorization: Bearer eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYWRlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9ChscFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHWVpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7zNkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgSaRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJfYPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Notificaciones.c(42): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Notificaciones.c(42): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Notificaciones.c(42): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Notificaciones.c(42): "Content-Type: application/json" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Notificaciones.c(42): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Notificaciones.c(42): Notify: ****************   End of messages from web_add_header   *****************
+Notificaciones.c(42): t=2104ms: Already connected [0] to api1-intapp.correospre.es:443  	[MsgId: MMSG-26000]
+Notificaciones.c(42): t=2104ms: 992-byte request headers for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/outputdelivery" (RelFrameId=1, Internal ID=3)
+Notificaciones.c(42):     POST /logistics/logistics/api/v1/outputdelivery HTTP/1.1\r\n
+Notificaciones.c(42):     Authorization: Bearer eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVR
+Notificaciones.c(42):     IiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjo
+Notificaciones.c(42):     iaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsI
+Notificaciones.c(42):     nN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYWRlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9Chs
+Notificaciones.c(42):     cFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHW
+Notificaciones.c(42):     Vpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7zNkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgS
+Notificaciones.c(42):     aRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJf
+Notificaciones.c(42):     YPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg\r\n
+Notificaciones.c(42):     Content-Type: application/json\r\n
+Notificaciones.c(42):     Cache-Control: no-cache\r\n
+Notificaciones.c(42):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Notificaciones.c(42):     Accept-Encoding: gzip, deflate\r\n
+Notificaciones.c(42):     Accept: */*\r\n
+Notificaciones.c(42):     Connection: Keep-Alive\r\n
+Notificaciones.c(42):     Host: api1-intapp.correospre.es\r\n
+Notificaciones.c(42):     Content-Length: 229\r\n
+Notificaciones.c(42):     \r\n
+Notificaciones.c(42): t=2105ms: 229-byte request body for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/outputdelivery" (RelFrameId=1, Internal ID=3)
+Notificaciones.c(42):     {\r\n
+Notificaciones.c(42):     "centerId": "1900009",\r\n
+Notificaciones.c(42):     "deliveryServiceDate": "2023-04-10T13:22:44+0100",\r\n
+Notificaciones.c(42):     "deviceCode": "2738632764",\r\n
+Notificaciones.c(42):     "interfaceCode": "INT1047859",\r\n
+Notificaciones.c(42):     "modifiedDate": "2023-04-10T13:22:44+0100",\r\n
+Notificaciones.c(42):     "route": "PC93",\r\n
+Notificaciones.c(42):     "userCode": "P001234"\r\n
+Notificaciones.c(42):     }\r\n
+Notificaciones.c(42): t=3580ms: 236-byte response headers for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/outputdelivery" (RelFrameId=1, Internal ID=3)
+Notificaciones.c(42):     HTTP/1.1 200 OK\r\n
+Notificaciones.c(42):     Content-Type: application/json; charset=UTF-8\r\n
+Notificaciones.c(42):     Transfer-Encoding: chunked\r\n
+Notificaciones.c(42):     Date: Mon, 10 Apr 2023 11:22:46 GMT\r\n
+Notificaciones.c(42):     Set-Cookie: 11318fb6d7dbcf31e30910e19b23fe19=4e018f4dcd1631e612a05d315ba0b4e9; path=/; Htt
+Notificaciones.c(42):     pOnly; Secure\r\n
+Notificaciones.c(42):     \r\n
+Notificaciones.c(42): t=3583ms: 5-byte chunked response overhead for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/outputdelivery" (RelFrameId=1, Internal ID=3)
+Notificaciones.c(42):     3fe\r\n
+Notificaciones.c(42): t=3583ms: 2-byte chunked response overhead for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/outputdelivery" (RelFrameId=1, Internal ID=3)
+Notificaciones.c(42):     \r\n
+Notificaciones.c(42): t=3583ms: 1022-byte chunked response body for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/outputdelivery" (RelFrameId=1, Internal ID=3)
+Notificaciones.c(42):     {"data":[{"shipmentId":"NATMSRENDI0000000000001","createdOn":"2023-04-10T14:22:42+0200","i
+Notificaciones.c(42):     temsQuantity":1,"productCode":"NA","partialDelivery":false,"items":[{"id":"NATMSRENDI00000
+Notificaciones.c(42):     00000001","createdOn":"2023-04-10T14:22:42+0200","createdAt":"11","modifiedOn":"2023-04-10
+Notificaciones.c(42):     T13:22:45+0200","modifiedBy":"P001234","shipmentId":"NATMSRENDI0000000000001","shipmentCre
+Notificaciones.c(42):     atedOn":"2023-04-10T14:22:42+0200","admissionDate":"2023-04-10T13:22:44+0200","assignedRou
+Notificaciones.c(42):     te":"PC93","assignedDeliveryPerson":"P001234","assigmentOrder":1,"groupId":124775,"reporte
+Notificaciones.c(42):     rNode":"1900009","numberMadeAttempts":0,"itemCycle":false,"incidence":false,"lastDeliveryA
+Notificaciones.c(42):     ttempt":false,"downWaterStatus":true,"customBlock":false,"endRoute":false,"status":{"id":2
+Notificaciones.c(42):     7,"statusDate":"2023-04-10T13:22:45+0200","userCode":"P001234","interfaceCode":"INT1047859
+Notificaciones.c(42):     ","deviceCode":"2738632764"},"incidents":[],"pods":[],"delivery":{},"pbc":{}}],"isPickup":
+Notificaciones.c(42):     false,"recipient":{"doi":{},"contacto":{},"address":{}},"sender":{"doi":{},"contacto":{},"
+Notificaciones.c(42):     address":{}},"addedValues":[]}]}
+Notificaciones.c(42): t=3584ms: 5-byte chunked response overhead for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/outputdelivery" (RelFrameId=1, Internal ID=3)
+Notificaciones.c(42):     0\r\n
+Notificaciones.c(42):     \r\n
+Notificaciones.c(42): t=3585ms: Request done "https://api1-intapp.correospre.es/logistics/logistics/api/v1/outputdelivery"  	[MsgId: MMSG-26000]
+Notificaciones.c(42): web_rest("POST: https://api1-intapp.correospre.es/logistics/logist...") was successful, 1022 body bytes, 236 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Notificaciones.c(62): Notify: Transaction "SCR01_EMBARRIADO_NOTIFICACIONES_OUTPUTDELIVERY" ended with a "Pass" status (Duration: 1,5191 Wasted Time: 0,0057).
+Ending action Notificaciones.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=3629ms: Closed connection [0] to api1-intapp.correospre.es:443 after completing 2 request(s)  	[MsgId: MMSG-26000]

@@ -1,0 +1,13 @@
+[t1]
+SnapshotXmlFile=snapshot_1.xml
+ContentType=application/json
+StepName=Submit Data: token
+Total=1
+FileName1=t1.json
+RequestHeaderFile=t1_RequestHeader.txt
+ResponseHeaderFile=t1_ResponseHeader.txt
+RawStepEndTime=0
+RawStepName=token
+RequestBodyFile=t1_RequestBody.txt
+RawStepStartTime=1681125762452
+URL1=https://pocisam.correospre.es/mga/sps/oauth/oauth20/token

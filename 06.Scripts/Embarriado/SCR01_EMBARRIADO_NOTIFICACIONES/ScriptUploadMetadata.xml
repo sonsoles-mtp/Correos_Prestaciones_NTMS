@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>SCR01_EMBARRIADO_NOTIFICACIONES</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="SCR01_TR00_EMBARRIADO_NOTIFICACIONES.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="SCR01_EMBARRIADO_NOTIFICACIONES.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="SCR01_EMBARRIADO_NOTIFICACIONES.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_SCR01_EMBARRIADO_NOTIFICACIONES.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="120285015440.idx" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="itemid_envios_basicos.dat" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="route_envios_basicos.dat" Filter="1" />
+    <FileEntry Name="SCR01_EMBARRIADO_ENVIOS_BASICOS.prm.bak" Filter="1" />
+    <FileEntry Name="SCR01_EMBARRIADO_NOTIFICACIONES.c.pickle" Filter="1" />
+    <FileEntry Name="SCR01_EMBARRIADO_NOTIFICACIONES.ci" Filter="1" />
+    <FileEntry Name="SCR01_EMBARRIADO_NOTIFICACIONES.prm.bak" Filter="1" />
+    <FileEntry Name="SCR01_EMBARRIADO_RECOGIDAS.prm.bak" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

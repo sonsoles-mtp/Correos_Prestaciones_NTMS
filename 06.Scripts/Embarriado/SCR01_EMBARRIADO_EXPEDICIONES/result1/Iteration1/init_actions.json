@@ -1,0 +1,14 @@
+[
+    {
+        "actionName": "vuser_init",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Submit Data: token",
+                "infFile": "t1.inf",
+                "time": 1681125492759
+            }
+        ],
+        "transactions": []
+    }
+]

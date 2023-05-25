@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Expediciones",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Rest Request: POST: https://api1-intapp.correospre.es/logistics/logist...",
+                "infFile": "t2.inf",
+                "time": 1681125493105
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "SCR01_EMBARRIADO_EXPEDICIONES_ASSIGMENT",
+                "rawStartTime": 1681125492816,
+                "rawEndTime": 1681125493106,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006891489028930664
+            }
+        ]
+    }
+]

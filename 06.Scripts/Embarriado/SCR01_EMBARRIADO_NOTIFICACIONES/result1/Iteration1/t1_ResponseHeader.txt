@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+content-language: en-US
+content-type: application/json;charset=UTF-8
+date: Mon, 10 Apr 2023 11:23:19 GMT
+p3p: CP="NON CUR OTPi OUR NOR UNI"
+transfer-encoding: chunked
+access-control-allow-origin: *
+x-frame-options: SAMEORIGIN
+cache-control: no-store, no-cache=set-cookie
+expires: Thu, 01 Dec 1994 16:00:00 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+pragma: no-cache
+Set-Cookie: AMWEBJCT!%2Fmga!JSESSIONID=0000Jv6lLtCxR4zXs-vSbmbmyU3:ce75908e-a1c0-4004-9a6e-dcb5e6f65225; Path=/; Secure; HttpOnly
+Set-Cookie: BIGipServerpool_pocisamv1.correospre.es_http=rd183o00000000000000000000ffffac1810eao443; path=/; Httponly; Secure
+

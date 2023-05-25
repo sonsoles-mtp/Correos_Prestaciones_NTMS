@@ -1,0 +1,1 @@
+"grant_type=client_credentials&client_id=hades&client_secret=PbCc1xzVLyg1878ti0US&scope=openid"

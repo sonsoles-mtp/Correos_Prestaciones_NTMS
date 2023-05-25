@@ -1,0 +1,6 @@
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=UTF-8
+Transfer-Encoding: chunked
+Date: Mon, 10 Apr 2023 11:22:44 GMT
+Set-Cookie: 11318fb6d7dbcf31e30910e19b23fe19=41f6d85039215b0ec5e33fb3d90f9d7e; path=/; HttpOnly; Secure
+

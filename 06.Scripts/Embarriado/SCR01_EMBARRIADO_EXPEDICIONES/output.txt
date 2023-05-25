@@ -1,0 +1,227 @@
+Error: Parameter 'cod_bulto_expedicion': Invalid column name 'cod_bulto_expedicion' for table 'embarriado_expedicion.csv'.
+Error: Parameter 'id_ruta_expedicion': Cannot find the line number from which to take the next value. This parameter is defined to use the same line as parameter 'cod_bulto_expedicion'.
+Error: Parameter 'cod_centro_expedicion': Cannot find the line number from which to take the next value. This parameter is defined to use the same line as parameter 'cod_bulto_expedicion'.
+Virtual User Script started at: 10/04/2023 13:18:12
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.1.0 for Windows 2008 R2; build 460 (abr 22 2021 19:27:24)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\E020585\Desktop\PRUEBAS_VUGEN\NuevosScripts\Embarriado\SCR01_EMBARRIADO_EXPEDICIONES\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\E020585\Desktop\PRUEBAS_VUGEN\NuevosScripts\Embarriado\SCR01_EMBARRIADO_EXPEDICIONES"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\E020585\Desktop\PRUEBAS_VUGEN\NuevosScripts\Embarriado\SCR01_EMBARRIADO_EXPEDICIONES"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "c:\users\e020585\desktop\pruebas_vugen\nuevosscripts\embarriado\scr01_embarriado_expediciones"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2023-04-10 11:18:12  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2023-04-10 13:18:12  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : Yes  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: No  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: text/xml;text/plain  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\E020585\Desktop\PRUEBAS_VUGEN\NuevosScripts\Embarriado\SCR01_EMBARRIADO_EXPEDICIONES\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: No  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+vuser_init.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(4): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+vuser_init.c(4): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+vuser_init.c(6): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+vuser_init.c(6): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+vuser_init.c(6): "Content-Type: application/x-www-form-urlencoded" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+vuser_init.c(6): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+vuser_init.c(8): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+vuser_init.c(8): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+vuser_init.c(15): web_submit_data("token") started  	[MsgId: MMSG-26355]
+vuser_init.c(15): t=208ms: Connecting [0] to host 172.21.36.108:443  	[MsgId: MMSG-26000]
+vuser_init.c(15): t=209ms: Connected socket [0] from 10.70.20.85:27706 to 172.21.36.108:443 in 1 ms  	[MsgId: MMSG-26000]
+vuser_init.c(15): t=211ms: Trying to set SNI with servername pocisam.correospre.es  	[MsgId: MMSG-26000]
+vuser_init.c(15): t=211ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+vuser_init.c(15): t=220ms: 316-byte request headers for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     POST /mga/sps/oauth/oauth20/token HTTP/1.1\r\n
+vuser_init.c(15):     Content-Type: application/x-www-form-urlencoded\r\n
+vuser_init.c(15):     Cache-Control: no-cache\r\n
+vuser_init.c(15):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+vuser_init.c(15):     Accept-Encoding: gzip, deflate\r\n
+vuser_init.c(15):     Accept: */*\r\n
+vuser_init.c(15):     Connection: Keep-Alive\r\n
+vuser_init.c(15):     Host: pocisam.correospre.es\r\n
+vuser_init.c(15):     Content-Length: 93\r\n
+vuser_init.c(15):     \r\n
+vuser_init.c(15): t=225ms: 93-byte request body for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     grant_type=client_credentials&client_id=hades&client_secret=PbCc1xzVLyg1878ti0US&scope=ope
+vuser_init.c(15):     nid
+vuser_init.c(15): t=428ms: 678-byte response headers for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     HTTP/1.1 200 OK\r\n
+vuser_init.c(15):     content-language: en-US\r\n
+vuser_init.c(15):     content-type: application/json;charset=UTF-8\r\n
+vuser_init.c(15):     date: Mon, 10 Apr 2023 11:18:49 GMT\r\n
+vuser_init.c(15):     p3p: CP="NON CUR OTPi OUR NOR UNI"\r\n
+vuser_init.c(15):     transfer-encoding: chunked\r\n
+vuser_init.c(15):     access-control-allow-origin: *\r\n
+vuser_init.c(15):     x-frame-options: SAMEORIGIN\r\n
+vuser_init.c(15):     cache-control: no-store, no-cache=set-cookie\r\n
+vuser_init.c(15):     expires: Thu, 01 Dec 1994 16:00:00 GMT\r\n
+vuser_init.c(15):     strict-transport-security: max-age=31536000; includeSubDomains\r\n
+vuser_init.c(15):     pragma: no-cache\r\n
+vuser_init.c(15):     Set-Cookie: AMWEBJCT!%2Fmga!JSESSIONID=0000chYFNPLZw28_62HtgcphLvq:ce75908e-a1c0-4004-9a6e
+vuser_init.c(15):     -dcb5e6f65225; Path=/; Secure; HttpOnly\r\n
+vuser_init.c(15):     Set-Cookie: BIGipServerpool_pocisamv1.correospre.es_http=rd183o00000000000000000000ffffac1
+vuser_init.c(15):     810eao443; path=/; Httponly; Secure\r\n
+vuser_init.c(15):     \r\n
+vuser_init.c(15): t=435ms: 5-byte chunked response overhead for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     2f0\r\n
+vuser_init.c(15): t=435ms: 7-byte chunked response overhead for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     \r\n
+vuser_init.c(15):     0\r\n
+vuser_init.c(15):     \r\n
+vuser_init.c(15): t=436ms: 752-byte chunked response body for "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token" (RelFrameId=1, Internal ID=1)
+vuser_init.c(15):     {"access_token":"LAl5Oc85Vn2","scope":"openid","id_token":"eyJraWQiOiJBM1J4dXhNTTdyVEw2QXN
+vuser_init.c(15):     ubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIF
+vuser_init.c(15):     RNUyIsImlhdCI6MTY4MTEyNTUyOSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNo
+vuser_init.c(15):     Ijoia3lWZ3p1UW9Rdi1WQUE1QVJobjlZQSIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0MzI5LCJhdWQiOiJoYW
+vuser_init.c(15):     RlcyJ9.l51miVBMIJoUjLuI4y_KFwRKSKRsRV2c0hsZydhtpLUSX4Xo04PB6JwhqrQxvuHxq81_jQdkByXAeduzMe4
+vuser_init.c(15):     Gv7kUaMuiZaMGcNZojz3uWG949jQbG_vrXodhktLp1FIlg_LBcl9HFPtBdcePrZE7kZTKwwXCeKkfBgfYXU-igx3J-
+vuser_init.c(15):     yWaMTSl_sMT1IB6RTSpJAa4Fk0boGwmkugG2UlG_kGhzdoolvb4hpZo9lzU6MF4rXijufrF1M3MvpJKrceNbX1y2te
+vuser_init.c(15):     0yMN2fVUg_9pIg6A4fqenUpNXGBJ5xXLg3M2yqmP3NOyOyD2i_hfxIaPMtttq-zKA3Vk-Xji-WOfu6A","token_ty
+vuser_init.c(15):     pe":"bearer","expires_in":28799}
+vuser_init.c(15): Notify: Saving Parameter "token = eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTUyOSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoia3lWZ3p1UW9Rdi1WQUE1QVJobjlZQSIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0MzI5LCJhdWQiOiJoYWRlcyJ9.l51miVBMIJoUjLuI4y_KFwRKSKRsRV2c0hsZydhtpLUSX4Xo04PB6JwhqrQxvuHxq81_jQdkByXAeduzMe4Gv7kUaMuiZaMGcNZojz3uWG949jQbG_vrXodhktLp1FIlg_LBcl9HFPtBdcePrZE7kZTKwwXCeKkfBgfYXU-igx3J-yWaMTSl_sMT1IB6RTSpJAa4Fk0boGwmkugG2UlG_kGhzdoolvb4hpZo9lzU6MF4rXijufrF1M3MvpJKrceNbX1y2te0yMN2fVUg_9pIg6A4fqenUpNXGBJ5xXLg3M2yqmP3NOyOyD2i_hfxIaPMtttq-zKA3Vk-Xji-WOfu6A".
+vuser_init.c(15): t=441ms: Request done "https://pocisam.correospre.es/mga/sps/oauth/oauth20/token"  	[MsgId: MMSG-26000]
+vuser_init.c(15): web_submit_data("token") was successful, 752 body bytes, 678 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Runtime Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Expediciones.
+Expediciones.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Expediciones.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Expediciones.c(4): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+Expediciones.c(4): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+Expediciones.c(6): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Expediciones.c(6): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Expediciones.c(6): "Content-Type: application/x-www-form-urlencoded" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Expediciones.c(6): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Expediciones.c(15): Notify: Transaction "SCR01_EMBARRIADO_EXPEDICIONES_ASSIGMENT" started.
+Expediciones.c(17): web_rest("POST: https://api1-intapp.correospre.es/logistics/logist...") started  	[MsgId: MMSG-26355]
+Expediciones.c(17): Notify: Parameter Substitution: parameter "fec_actual" =  "2023-04-10T13:18:12+0100"
+Expediciones.c(17): Warning: The string 'cod_bulto_expedicion' with parameter delimiters is not a parameter.
+Expediciones.c(17): Error: Parameter 'id_ruta_expedicion': Cannot find the line number from which to take the next value. This parameter is defined to use the same line as parameter 'cod_bulto_expedicion'.
+Expediciones.c(17): Notify: Next row for parameter id_ruta_expedicion = 1 [table  = id_ruta_expedicion].
+Expediciones.c(17): Notify: Parameter Substitution: parameter "id_ruta_expedicion" =  "PC92"
+Expediciones.c(17): Error: Parameter 'cod_centro_expedicion': Cannot find the line number from which to take the next value. This parameter is defined to use the same line as parameter 'cod_bulto_expedicion'.
+Expediciones.c(17): Notify: Next row for parameter cod_centro_expedicion = 1 [table  = cod_centro_expedicion].
+Expediciones.c(17): Notify: Parameter Substitution: parameter "cod_centro_expedicion" =  "1900009"
+Expediciones.c(17): Notify: ****************   web_add_header is called internally from web_rest. The following messages are from web_add_header   *****************
+Expediciones.c(17): Notify: Parameter Substitution: parameter "token" =  "eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTUyOSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoia3lWZ3p1UW9Rdi1WQUE1QVJobjlZQSIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0MzI5LCJhdWQiOiJoYWRlcyJ9.l51miVBMIJoUjLuI4y_KFwRKSKRsRV2c0hsZydhtpLUSX4Xo04PB6JwhqrQxvuHxq81_jQdkByXAeduzMe4Gv7kUaMuiZaMGcNZojz3uWG949jQbG_vrXodhktLp1FIlg_LBcl9HFPtBdcePrZE7kZTKwwXCeKkfBgfYXU-igx3J-yWaMTSl_sMT1IB6RTSpJAa4Fk0boGwmkugG2UlG_kGhzdoolvb4hpZo9lzU6MF4rXijufrF1M3MvpJKrceNbX1y2te0yMN2fVUg_9pIg6A4fqenUpNXGBJ5xXLg3M2yqmP3NOyOyD2i_hfxIaPMtttq-zKA3Vk-Xji-WOfu6A"
+Expediciones.c(17): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Expediciones.c(17): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Expediciones.c(17): "Authorization: Bearer eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTUyOSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoia3lWZ3p1UW9Rdi1WQUE1QVJobjlZQSIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0MzI5LCJhdWQiOiJoYWRlcyJ9.l51miVBMIJoUjLuI4y_KFwRKSKRsRV2c0hsZydhtpLUSX4Xo04PB6JwhqrQxvuHxq81_jQdkByXAeduzMe4Gv7kUaMuiZaMGcNZojz3uWG949jQbG_vrXodhktLp1FIlg_LBcl9HFPtBdcePrZE7kZTKwwXCeKkfBgfYXU-igx3J-yWaMTSl_sMT1IB6RTSpJAa4Fk0boGwmkugG2UlG_kGhzdoolvb4hpZo9lzU6MF4rXijufrF1M3MvpJKrceNbX1y2te0yMN2fVUg_9pIg6A4fqenUpNXGBJ5xXLg3M2yqmP3NOyOyD2i_hfxIaPMtttq-zKA3Vk-Xji-WOfu6A" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Expediciones.c(17): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Expediciones.c(17): web_add_header("Content-Type") started  	[MsgId: MMSG-26355]
+Expediciones.c(17): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Expediciones.c(17): "Content-Type: application/json" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Expediciones.c(17): web_add_header("Content-Type") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Expediciones.c(17): Notify: ****************   End of messages from web_add_header   *****************
+Expediciones.c(17): t=596ms: Closed connection [0] to pocisam.correospre.es:443 after completing 1 request(s)  	[MsgId: MMSG-26000]
+Expediciones.c(17): t=596ms: Connecting [0] to host 172.17.163.184:443  	[MsgId: MMSG-26000]
+Expediciones.c(17): t=633ms: Connected socket [0] from 10.70.20.85:27707 to 172.17.163.184:443 in 37 ms  	[MsgId: MMSG-26000]
+Expediciones.c(17): t=634ms: Trying to set SNI with servername api1-intapp.correospre.es  	[MsgId: MMSG-26000]
+Expediciones.c(17): t=634ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+Expediciones.c(17): t=717ms: 988-byte request headers for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Expediciones.c(17):     POST /logistics/logistics/api/v1/assignment HTTP/1.1\r\n
+Expediciones.c(17):     Authorization: Bearer eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVR
+Expediciones.c(17):     IiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTUyOSwiaXNzIjo
+Expediciones.c(17):     iaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoia3lWZ3p1UW9Rdi1WQUE1QVJobjlZQSIsI
+Expediciones.c(17):     nN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0MzI5LCJhdWQiOiJoYWRlcyJ9.l51miVBMIJoUjLuI4y_KFwRKSKRsRV
+Expediciones.c(17):     2c0hsZydhtpLUSX4Xo04PB6JwhqrQxvuHxq81_jQdkByXAeduzMe4Gv7kUaMuiZaMGcNZojz3uWG949jQbG_vrXodh
+Expediciones.c(17):     ktLp1FIlg_LBcl9HFPtBdcePrZE7kZTKwwXCeKkfBgfYXU-igx3J-yWaMTSl_sMT1IB6RTSpJAa4Fk0boGwmkugG2U
+Expediciones.c(17):     lG_kGhzdoolvb4hpZo9lzU6MF4rXijufrF1M3MvpJKrceNbX1y2te0yMN2fVUg_9pIg6A4fqenUpNXGBJ5xXLg3M2y
+Expediciones.c(17):     qmP3NOyOyD2i_hfxIaPMtttq-zKA3Vk-Xji-WOfu6A\r\n
+Expediciones.c(17):     Content-Type: application/json\r\n
+Expediciones.c(17):     Cache-Control: no-cache\r\n
+Expediciones.c(17):     User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)\r\n
+Expediciones.c(17):     Accept-Encoding: gzip, deflate\r\n
+Expediciones.c(17):     Accept: */*\r\n
+Expediciones.c(17):     Connection: Keep-Alive\r\n
+Expediciones.c(17):     Host: api1-intapp.correospre.es\r\n
+Expediciones.c(17):     Content-Length: 368\r\n
+Expediciones.c(17):     \r\n
+Expediciones.c(17): t=718ms: 368-byte request body for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Expediciones.c(17):     {\r\n
+Expediciones.c(17):     "adminMode": true,\r\n
+Expediciones.c(17):     "assignmentDate": "2023-04-10T13:18:12+0100",\r\n
+Expediciones.c(17):     "deliveryManCode": "P001234",\r\n
+Expediciones.c(17):     "device": "2738632764",\r\n
+Expediciones.c(17):     "interfaceId": "AI00001",\r\n
+Expediciones.c(17):     "itemId": "{cod_bulto_expedicion}",\r\n
+Expediciones.c(17):     "language": "Espa&#241;ol",\r\n
+Expediciones.c(17):     "latitude": 23.5,\r\n
+Expediciones.c(17):     "longitude": 12.4,\r\n
+Expediciones.c(17):     "route": "PC92",\r\n
+Expediciones.c(17):     "centerCode": "1900009",\r\n
+Expediciones.c(17):     "onRoute": false,\r\n
+Expediciones.c(17):     "userCode": "E012345",\r\n
+Expediciones.c(17):     "changeProduct": 0\r\n
+Expediciones.c(17):     }\r\n
+Expediciones.c(17): t=837ms: 239-byte response headers for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Expediciones.c(17):     HTTP/1.1 500 Server Error\r\n
+Expediciones.c(17):     Content-Type: application/json; charset=UTF-8\r\n
+Expediciones.c(17):     Content-Length: 627\r\n
+Expediciones.c(17):     Date: Mon, 10 Apr 2023 11:18:12 GMT\r\n
+Expediciones.c(17):     Set-Cookie: 11318fb6d7dbcf31e30910e19b23fe19=4e018f4dcd1631e612a05d315ba0b4e9; path=/; Htt
+Expediciones.c(17):     pOnly; Secure\r\n
+Expediciones.c(17):     \r\n
+Expediciones.c(17): t=839ms: 627-byte response body for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment" (RelFrameId=1, Internal ID=2)
+Expediciones.c(17):     {\n
+Expediciones.c(17):       "code": 500,\n
+Expediciones.c(17):       "apierror": {\n
+Expediciones.c(17):         "uuaa": "servicio asignacion",\n
+Expediciones.c(17):         "version": "1.0.43.8-RC-SNAPSHOT",\n
+Expediciones.c(17):         "status": "INTERNAL_SERVER_ERROR",\n
+Expediciones.c(17):         "errorCode": "FEIGN_CLIENT_EXCEPTION",\n
+Expediciones.c(17):         "timestamp": "10-04-2023 01:18:13",\n
+Expediciones.c(17):         "message": "Response Code [500] - status 500 reading ItemClient#getItemByCodeExtended(
+Expediciones.c(17):     String) -- {\\n  \\"code\\": \\"500\\",\\n  \\"message\\": \\"Internal Server Error\\",\\n
+Expediciones.c(17):       \\"moreInformation\\": {\\n    \\"description\\": \\"Illegal character in path at index 
+Expediciones.c(17):     67: http://envios-back-service:8080/shipmentsrepository/items/extended/{cod_bulto_expedici
+Expediciones.c(17):     on}\\",\\n    \\"link\\": \\"www.correos.es\\"\\n  }\\n}"\n
+Expediciones.c(17):       }\n
+Expediciones.c(17):     }
+Expediciones.c(17): Error -26612: HTTP Status-Code=500 (Server Error) for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment"  	[MsgId: MERR-26612]
+Expediciones.c(17): t=840ms: Closing connection [0] to api1-intapp.correospre.es after receiving status code 500  	[MsgId: MMSG-26000]
+Expediciones.c(17): t=840ms: Closed connection [0] to api1-intapp.correospre.es:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
+Expediciones.c(17): t=840ms: Request done "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment"  	[MsgId: MMSG-26000]
+Expediciones.c(17): web_rest("POST: https://api1-intapp.correospre.es/logistics/logist...") highest severity level was "ERROR", 627 body bytes, 239 header bytes  	[MsgId: MMSG-26388]
+Expediciones.c(17): Notify: Transaction "SCR01_EMBARRIADO_EXPEDICIONES_ASSIGMENT" ended with a "Fail" status (Duration: 0,2895 Wasted Time: 0,0069).
+Expediciones.c(17): Notify: Transaction "SCR01_EMBARRIADO_EXPEDICIONES_ASSIGMENT" has 1 error message(s).
+Expediciones.c(17): Notify: The 1st error message associated with transaction "SCR01_EMBARRIADO_EXPEDICIONES_ASSIGMENT" is "Error -26612: HTTP Status-Code=500 (Server Error) for "https://api1-intapp.correospre.es/logistics/logistics/api/v1/assignment""
+Ending action Expediciones.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

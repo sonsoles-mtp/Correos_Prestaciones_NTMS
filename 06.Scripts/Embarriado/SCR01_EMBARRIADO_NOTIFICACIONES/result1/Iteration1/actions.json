@@ -1,0 +1,35 @@
+[
+    {
+        "actionName": "Notificaciones",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Rest Request: POST: https://api1-intapp.correospre.es/logistics/logist...",
+                "infFile": "t2.inf",
+                "time": 1681125764336
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Rest Request: POST: https://api1-intapp.correospre.es/logistics/logist...",
+                "infFile": "t3.inf",
+                "time": 1681125765872
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "SCR01_EMBARRIADO_NOTIFICACIONES_ASSIGMENT",
+                "rawStartTime": 1681125762865,
+                "rawEndTime": 1681125764350,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006729841232299805
+            },
+            {
+                "transactionName": "SCR01_EMBARRIADO_NOTIFICACIONES_OUTPUTDELIVERY",
+                "rawStartTime": 1681125764366,
+                "rawEndTime": 1681125765885,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005679607391357422
+            }
+        ]
+    }
+]

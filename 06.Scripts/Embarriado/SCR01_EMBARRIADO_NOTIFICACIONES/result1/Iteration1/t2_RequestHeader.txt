@@ -1,0 +1,11 @@
+POST /logistics/logistics/api/v1/assignment HTTP/1.1
+Authorization: Bearer eyJraWQiOiJBM1J4dXhNTTdyVEw2QXNubUxTdHJtLVhya3AwZUk4YzVjalh2bDdtRDVRIiwiYWxnIjoiUlMyNTYifQ.eyJjb21wYW55TmFtZSI6Ik51ZXZvIFRNUyIsImlhdCI6MTY4MTEyNTc5OSwiaXNzIjoiaHR0cHM6Ly9wb2Npc2FtLmNvcnJlb3NwcmUuZXMiLCJhdF9oYXNoIjoiZFQ3ZXpsdUtUeGtaTlFoT3UtY2pQdyIsInN1YiI6ImhhZGVzIiwiZXhwIjoxNjgxMTU0NTk5LCJhdWQiOiJoYWRlcyJ9.REuncxxgUpp8IXw1Ax8RTHZ7Yk9ChscFp8ymDtrP0LJISTmyCxOE9hjp86c8U0a2qctAuyNo-Zlo9vyNGEx4T4HbaYLU3LhU3u3XhK69lagw8AnXn-JwiRHWVpd7_nPa7ulqH5fLIM3LZy2K8KwRucvPaDfBgE1y1ObhEZ_e6od7zNkIo6ncD4jhvY119-M-NBtBTIUaVIxgROXqgSaRvAqRTQpAUt25WVwHww4DD6dKdrsgpvLNhwQDGuLyaN-OvE5PTaL62S7ehJVveQeDCiELX62MJ6Z3afuMnesZkOJfYPTuelT7PYAtC0-vpKYjEsgUjXBhwLp8DxKYXRtEGg
+Content-Type: application/json
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: Keep-Alive
+Host: api1-intapp.correospre.es
+Content-Length: 369
+

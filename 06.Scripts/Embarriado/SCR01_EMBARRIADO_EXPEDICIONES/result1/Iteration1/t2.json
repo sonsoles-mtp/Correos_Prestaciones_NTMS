@@ -1,0 +1,11 @@
+{
+  "code": 500,
+  "apierror": {
+    "uuaa": "servicio asignacion",
+    "version": "1.0.43.8-RC-SNAPSHOT",
+    "status": "INTERNAL_SERVER_ERROR",
+    "errorCode": "FEIGN_CLIENT_EXCEPTION",
+    "timestamp": "10-04-2023 01:18:13",
+    "message": "Response Code [500] - status 500 reading ItemClient#getItemByCodeExtended(String) -- {\n  \"code\": \"500\",\n  \"message\": \"Internal Server Error\",\n  \"moreInformation\": {\n    \"description\": \"Illegal character in path at index 67: http://envios-back-service:8080/shipmentsrepository/items/extended/{cod_bulto_expedicion}\",\n    \"link\": \"www.correos.es\"\n  }\n}"
+  }
+}
